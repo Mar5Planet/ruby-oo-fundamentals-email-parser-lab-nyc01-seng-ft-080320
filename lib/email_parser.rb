@@ -15,6 +15,6 @@ class EmailAddressParser
       email_array.reject! {|element| element.empty?}
       email_array
   end
-binding.pry
+
   
 end 
